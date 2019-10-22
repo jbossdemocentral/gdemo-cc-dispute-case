@@ -34,7 +34,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.kie.server.client.integration.RemoteBusinessRuleTaskHandler("http://localhost:8080/kie-server/services/rest/server", "pamAdmin", "redhatpam1!", classLoader)</identifier>
+            <identifier>new org.kie.server.client.integration.RemoteBusinessRuleTaskHandler("http://localhost:8080/services/rest/server", "pamAdmin", "redhatpam1!", classLoader)</identifier>
             <parameters/>
             <name>RemoteDecisionTask</name>
         </work-item-handler>
